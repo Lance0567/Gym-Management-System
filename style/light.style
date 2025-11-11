@@ -1,0 +1,18 @@
+object TStyleContainer
+  object Rectangle1: TRectangle
+    StyleName = 'mvSidebarStyle1'
+    Align = Center
+    Corners = [TopLeft, BottomLeft]
+    Fill.Color = xFEFAFAFA
+    Size.Width = 50.000000000000000000
+    Size.Height = 844.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFEE1E7EF
+    XRadius = 9.000000000000000000
+    YRadius = 9.000000000000000000
+    object TBrushObject
+      StyleName = 'dropline'
+      Brush.Color = xFEE1E7EF
+    end
+  end
+end

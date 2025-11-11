@@ -1,0 +1,60 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Management System'
+  ClientHeight = 480
+  ClientWidth = 640
+  Fill.Color = xFE56585D
+  Fill.Kind = Solid
+  Padding.Left = 4.000000000000000000
+  Padding.Top = 4.000000000000000000
+  Padding.Right = 4.000000000000000000
+  Padding.Bottom = 4.000000000000000000
+  StyleBook = sbDesign
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Wrapper: TRectangle
+    Align = Client
+    ClipChildren = True
+    ClipParent = True
+    Fill.Color = xFEF0F4F8
+    Padding.Right = 5.000000000000000000
+    Size.Width = 632.000000000000000000
+    Size.Height = 472.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 8.000000000000000000
+    YRadius = 8.000000000000000000
+    object mvSidebar: TMultiView
+      Size.Width = 250.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'mvSidebarStyle1'
+      TabOrder = 0
+    end
+  end
+  object sbDesign: TStyleBook
+    Styles = <
+      item
+      end
+      item
+        Platform = 'Windows 11 Desktop'
+        ResourcesBin = {
+          464D585F5354594C4520322E3501060F6D76536964656261725374796C653103
+          340100545046300A5452656374616E676C650A52656374616E676C6531095374
+          796C654E616D65060F6D76536964656261725374796C653105416C69676E0706
+          43656E74657207436F726E6572730B07546F704C6566740A426F74746F6D4C65
+          6674000A46696C6C2E436F6C6F7207097846454641464146410A53697A652E57
+          696474680500000000000000C804400B53697A652E4865696768740500000000
+          000000D308401453697A652E506C6174666F726D44656661756C74080C537472
+          6F6B652E436F6C6F720709784645453145374546075852616469757305000000
+          0000000090024007595261646975730500000000000000900240000C54427275
+          73684F626A65637400095374796C654E616D65060864726F706C696E650B4272
+          7573682E436F6C6F720709784645453145374546000000}
+      end>
+    Left = 552
+    Top = 416
+  end
+end

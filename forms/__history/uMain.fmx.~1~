@@ -1,0 +1,74 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Management System'
+  ClientHeight = 480
+  ClientWidth = 640
+  Fill.Color = xFE56585D
+  Fill.Kind = Solid
+  Padding.Left = 4.000000000000000000
+  Padding.Top = 4.000000000000000000
+  Padding.Right = 4.000000000000000000
+  Padding.Bottom = 4.000000000000000000
+  StyleBook = sbDesign
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Wrapper: TRectangle
+    Align = Client
+    ClipChildren = True
+    ClipParent = True
+    Fill.Color = xFEF0F4F8
+    Padding.Right = 5.000000000000000000
+    PopupMenu = PopupMenu1
+    Size.Width = 632.000000000000000000
+    Size.Height = 472.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 8.000000000000000000
+    YRadius = 8.000000000000000000
+    object Rectangle1: TRectangle
+      Align = Left
+      Corners = [TopLeft, BottomLeft]
+      Fill.Color = xFEFAFAFA
+      Size.Width = 50.000000000000000000
+      Size.Height = 472.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFEE1E7EF
+      XRadius = 13.000000000000000000
+      YRadius = 13.000000000000000000
+    end
+  end
+  object sbDesign: TStyleBook
+    Styles = <
+      item
+      end
+      item
+        Platform = 'Windows 11 Desktop'
+        ResourcesBin = {
+          464D585F5354594C4520322E3501060F6D76536964656261725374796C653103
+          020100545046300A5452656374616E676C6500095374796C654E616D65060F6D
+          76536964656261725374796C653105416C69676E070643656E7465720A46696C
+          6C2E436F6C6F7207097846454641464146410748697454657374080C4D617267
+          696E732E4C6566740500000000000000A001400A53697A652E57696474680500
+          000000000000C906400B53697A652E4865696768740500000000000000F00740
+          1453697A652E506C6174666F726D44656661756C74080B5374726F6B652E4B69
+          6E6407044E6F6E65000C5442727573684F626A65637400095374796C654E616D
+          65060864726F706C696E650B42727573682E436F6C6F72070978464643434343
+          4343000000}
+      end>
+    Left = 552
+    Top = 416
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 320
+    Top = 328
+    object MenuItem1: TMenuItem
+      Text = 'MenuItem1'
+    end
+    object MenuItem2: TMenuItem
+      Text = 'MenuItem2'
+    end
+  end
+end
