@@ -13,6 +13,8 @@ type
     sbDesign: TStyleBook;
     Wrapper: TRectangle;
     mvSidebar: TMultiView;
+    Layout1: TLayout;
+    Layout2: TLayout;
   private
     { Private declarations }
   public

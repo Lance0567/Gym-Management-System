@@ -27,12 +27,26 @@ object frmMain: TfrmMain
     Stroke.Kind = None
     XRadius = 8.000000000000000000
     YRadius = 8.000000000000000000
-    object mvSidebar: TMultiView
-      Size.Width = 250.000000000000000000
-      Size.Height = 50.000000000000000000
+    object Layout1: TLayout
+      Align = Client
+      Size.Width = 577.000000000000000000
+      Size.Height = 472.000000000000000000
       Size.PlatformDefault = False
-      StyleLookup = 'mvSidebarStyle1'
       TabOrder = 0
+    end
+    object Layout2: TLayout
+      Align = Left
+      Size.Width = 50.000000000000000000
+      Size.Height = 472.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object mvSidebar: TMultiView
+        Size.Width = 250.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'mvSidebarStyle1'
+        TabOrder = 0
+      end
     end
   end
   object sbDesign: TStyleBook
